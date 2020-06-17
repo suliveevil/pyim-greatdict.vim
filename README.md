@@ -15,28 +15,14 @@
 
 pyim-greatdict 是一个 pyim 词库， 由 [WenLiang Xiao ](https://github.com/xiaowl) 同学根据他 之前自己使用的一个 NLP 语料库整理而成，这个词库词条比较多，包涵大概330万左右的词条， 文件大小大约 80M, 希望可以免去大多数人到处找字典的苦恼。
 
-WenLiang Xiao 同学 [最初](https://github.com/tumashu/pyim/pull/77) 将这个词库通过百度网盘发布， 我个人认为这个词库文件对 pyim 很重要，所以为其开启一个项目，并将这个词库命名为：greatdict.
+WenLiang Xiao 同学 [最初](https://github.com/tumashu/pyim/pull/77) 将这个词库通过百度网盘发布， 我（tumashu）个人认为这个词库文件对 pyim 很重要，所以为其开启一个项目，并将这个词库命名为：greatdict.
 
 
 <a id="org0d761c1"></a>
 
 ## 安装和使用
 
-1.  配置melpa源，参考：<http://melpa.org/#/getting-started>
-2.  M-x package-install RET pyim-greatdict RET
-3.  在emacs配置文件中（比如: ~/.emacs）添加如下代码：
 
-        (require 'pyim-greatdict)
-        (pyim-greatdict-enable)
-
-4. 使用[quelpa](https://github.com/quelpa/quelpa)来配置，（原因参考[issue](https://github.com/tumashu/pyim-greatdict/issues/4))，在配置文件中添加代码：
-
-        ;; .emacs
-        (quelpa '(pyim-greatdict :fetcher github :repo "tumashu/pyim-greatdict"))
-        ;; .spacemacs
-        (pyim-greatdict :location (recipe :fetcher github :repo "tumashu/pyim-greatdict"))
-
-<a id="orgf6603cc"></a>
 
 ## NLP 语料库
 
