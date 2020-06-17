@@ -37,7 +37,7 @@ pyim-greatdict 使用 NLP 语料库由 [刘邵博](https://github.com/lshb) 同�
 
     官网：http://www.nlpcn.org
 
-为了进一步了解相关信息，我给 [刘邵博](https://github.com/lshb) 同学发了 Email 并得到如下回复，确定这个语料库可以自由的使用：
+为了进一步了解相关信息，我（tumashu）给 [刘邵博](https://github.com/lshb) 同学发了 Email 并得到如下回复，确定这个语料库可以自由的使用：
 
     回复：咨询一些关于“ 词典360万（个人整理）.txt”的一些情况
 
